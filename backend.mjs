@@ -2,9 +2,6 @@ import express from "express";
 import cors from "cors";
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { Card } from "./Card.mjs";
-import mysql from 'mysql2/promise';
-import crypto from "crypto"
 import bodyParser from "body-parser"
 
 //***************************************DEFINING SERVER *************************************************/
